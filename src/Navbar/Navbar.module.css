@@ -1,0 +1,26 @@
+.navbar{
+    width: 80%;
+    height: 70px;
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+.navbarLogo  {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;  
+}
+.navbarLogo img{
+    width: 80%;  
+}
+.navbarIcon {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (min-width:450px) {
+    
+}
+

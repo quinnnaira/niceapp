@@ -1,0 +1,47 @@
+.hero {
+  display: flex;
+  justify-content: end;
+  margin: 0 auto;
+  width: 100%;
+  background-image: url('../images/mainphoto.jpeg');
+  height: 350px;
+  background-size: auto 140%;
+  background-repeat: no-repeat;
+  background-position-x: 40%;
+  background-position-y: 0;
+}
+.heroText {
+  min-width: 15%;
+  padding: 70px 40px 0px 10px;
+}
+.hero h1 {
+  line-height: 50px;
+  margin: 0;
+  color: #3989b2;
+  text-align: end;
+  font-size: 48px;
+  font-weight: 600;
+  font-family: Oswald, sans-serif;
+  /* padding: 40px 20px 0px 10px; */
+}
+.hero h3 {
+  letter-spacing: 5px;
+  margin: 0;
+  color: #ffffff;
+  text-align: end;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+@media (min-width: 450px) {
+  .hero {
+      margin: 0 auto;
+      width: 100%;
+      background-image: url('../images/mainphoto.jpeg');
+      height: 790px;
+      background-size: 100% auto;
+      background-repeat: no-repeat;
+      background-position-x: 40%;
+      background-position-y: 0%;
+  }
+}
